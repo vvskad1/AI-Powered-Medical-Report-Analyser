@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    color: #ff4b2b;
+    padding: 20px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px; /* Ensures space for navbar */
+    z-index: 1000;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    border-bottom: 4px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 10000px;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adds space between links */
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #ff4b2b;
+    font-size: 18px;
+}
+
+.logout-btn {
+    background-color: #ff4b2b;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 20px; /* Adds gap between contact and sign out button */
+}
+
+.logout-btn:hover {
+    background-color: #d84315;
+}

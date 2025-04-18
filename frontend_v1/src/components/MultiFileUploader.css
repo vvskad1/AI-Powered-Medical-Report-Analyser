@@ -1,0 +1,84 @@
+.multi-upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 2rem;
+  }
+  
+  .card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .upload-card {
+    width: 250px;
+    height: 250px;
+    border-radius: 1rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    padding: 1.25rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .file-input {
+    margin-top: 0.5rem;
+  }
+  
+  .file-name {
+    font-size: 12px;
+    color: #666;
+    margin-top: 0.5rem;
+    text-align: center;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .submit-btn {
+    background-color: #FF4C29;
+    color: white;
+    font-weight: bold;
+    padding: 0.75rem 2rem;
+    border-radius: 999px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+  }
+  
+  .submit-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  .medical-card {
+    background-color: #ffe8d9;
+    cursor: pointer;
+  }
+  
+  .test-card {
+    background-color: #dbeafe;
+    cursor: pointer;
+  }
+  
+  .image-card {
+    background-color: #dcfce7;
+    cursor: pointer;
+  }
+  
+  .upload-card:hover {
+    transform: scale(1.02);
+    transition: 0.3s ease;
+    box-shadow: 0 0 0 3px rgba(255, 76, 41, 0.3);
+  }
+  .file-hidden {
+    display: none !important;
+  }
+    
+  
