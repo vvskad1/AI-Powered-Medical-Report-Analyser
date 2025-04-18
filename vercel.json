@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "frontend": {
+      "source": "frontend_v1",
+      "buildCommand": "npm run build",
+      "outputDirectory": "dist"
+    }
+  },
+  "builds": [
+    { "src": "frontend_v1/package.json", "use": "@vercel/static-build" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "frontend_v1/dist/index.html" }
+  ]
+}
